@@ -90,6 +90,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.facebook.com/Chocolate.In.Bordeaux" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="A remplir" class=""></a><i class=""></i>Rechercher </a>
                     </ul>
                 </div>
             </nav>

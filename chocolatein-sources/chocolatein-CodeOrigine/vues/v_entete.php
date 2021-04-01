@@ -91,7 +91,7 @@
                             <a class="nav-link" href="https://www.facebook.com/Chocolate.In.Bordeaux" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="v_Rechercher.php" class="" ><i class="fas fa-search"></i>Rechercher </a>
+                            <a class="nav-link" href="?uc=rechercher"><i class="fas fa-search"></i>Rechercher </a>
                             
                     </ul>
                 </div>

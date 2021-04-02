@@ -59,6 +59,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarChoc" aria-controls="navBarChoc" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <button class="fas fa-search">Rechercher</button><input type="text">
                 <div class="collapse navbar-collapse" id="navBarChoc">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
@@ -91,7 +92,7 @@
                             <a class="nav-link" href="https://www.facebook.com/Chocolate.In.Bordeaux" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?uc=rechercher"><i class="fas fa-search"></i>Rechercher </a>
+                            <a class="nav-champ" href="?uc=rechercher"><i class="fas fa-search"></i>Rechercher <input type="text"> </<input></a>
                             
                     </ul>
                 </div>

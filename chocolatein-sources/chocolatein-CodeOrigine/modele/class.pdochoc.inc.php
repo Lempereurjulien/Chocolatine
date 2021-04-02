@@ -187,4 +187,17 @@ class PdoChoc {
         return $requetePrepare->execute();
     }
 
+    /**
+     * Enregistre la demande de recherche du client
+     */
+    public function getLesProduitRechercher($mot) {
+        $requetePrepare = PdoChoc::$monPdo->prepare(
+                'SELECT *
+        FROM produit
+         where nom LIKE %$mot%' 
+        );
+        $requetePrepare->execute();
+        return $requetePrepare->fetchAll(PDO::FETCH_COLUMN, 0);
+    }
+
 }

@@ -13,6 +13,9 @@
  * @version   GIT: <0>
  * @link      https://chocolatein.gil83.fr Contexte « Chocolate'In »
  */
-include 'vues/v_rechercher.php';
+$recherche = filter_input(Input_get,'recherche',FILTER_SANITIZE_STRING);
+
+$ProduitRecherche = $pdo->getLesProduitsRechercher($recherche);
+include 'vues/v_listeProduits.php';
 
 
